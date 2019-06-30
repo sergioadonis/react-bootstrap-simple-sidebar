@@ -11,7 +11,8 @@
 body {
   /*font-family: 'Poppins', sans-serif;*/
   font-family: 'Nunito Sans', sans-serif;
-  background: #fafafa;
+  /*background: #fafafa;*/
+  background-color: #f5f9fc;
 }
 
 
@@ -20,7 +21,7 @@ a:hover,
 a:focus {
   color: inherit;
   text-decoration: none;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 
 /* ---------------------------------------------------
@@ -80,7 +81,7 @@ a:focus {
 .nav-item:hover {
   background: #313b4c;
   color: #fff;
-  transition: .1s;
+  transition: .2s;
 }
 
 .nav-item .svg-inline--fa {
@@ -119,7 +120,9 @@ li a.dropdown-toggle::after {
   }
   
   .content.is-open {
-    margin-left: 100%;
+    /*margin-left: 100%;*/
+    display: none;
+    transition: all 0.5s;
   }
   
   .sidebar.is-open {
@@ -127,6 +130,7 @@ li a.dropdown-toggle::after {
     max-width: 100%;
     margin-left: 0;
     transition: all 0.5s, height 0s;
+    height: 100vh !important;
   }
   
   .sidebar.is-open > .sidebar-header button {
