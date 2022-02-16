@@ -3,6 +3,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Demo
 [http://react-bootstrap-sidebar.s3-website-us-east-1.amazonaws.com/] (http://react-bootstrap-sidebar.s3-website-us-east-1.amazonaws.com/)
 
+Based on:
+- https://github.com/sergioadonis/reactstrap-basic-sidebar
+- https://bootstrapious.com/p/bootstrap-sidebar
+
 ## Available Scripts
 
 In the project directory, you can run:
